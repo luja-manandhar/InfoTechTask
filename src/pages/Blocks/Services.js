@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from '../components/Cards/serviceCard.js'
-import './CSS/Services.css'
-import img1 from '../assets/cardimg1.svg'
-import img2 from '../assets/cardimg2.svg'
-import img3 from '../assets/cardimg3.svg'
-import img4 from '../assets/cardimg4.svg'
-import img5 from '../assets/cardimg5.svg'
-import img6 from '../assets/cardimg6.svg'
+import Card from '../../components/Cards/serviceCard.js'
+import '../CSS/Services.css'
+import img1 from '../../assets/cardimg1.svg'
+import img2 from '../../assets/cardimg2.svg'
+import img3 from '../../assets/cardimg3.svg'
+import img4 from '../../assets/cardimg4.svg'
+import img5 from '../../assets/cardimg5.svg'
+import img6 from '../../assets/cardimg6.svg'
 
 const Services = () => {
   return (

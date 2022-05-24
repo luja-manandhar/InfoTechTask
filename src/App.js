@@ -2,12 +2,12 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from  './components/Footer/Footer';
-import About from './pages/About';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import Blogs from './pages/Blogs';
+import AboutPage from './pages/AboutPage';
 import Login from './pages/Login';
 import Main from "./pages/Main";
+import ContactPage from "./pages/ContactPage";
+import ServicesPage from "./pages/ServicesPage";
+import BlogPage from "./pages/BlogPage";
 
 
 function App() {
@@ -15,12 +15,12 @@ function App() {
     <div className="App">
       <Navbar />
         <Routes>
-            <Route exact path="/" element={<Main />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/services" element={<Services />} />
-            <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/blogs" element={<Blogs />} />
-            <Route exact path="/login" element={<Login />} />
+            <Route path="/" element={<Main />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/blogs" element={<BlogPage />} />
+            <Route path="/login" element={<Login />} />
         </Routes>
         {/*<Main />*/}
       <Footer />

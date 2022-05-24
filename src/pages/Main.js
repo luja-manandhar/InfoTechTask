@@ -1,14 +1,14 @@
 import react from "react";
-import Home from "./Home";
-import About from "./About";
-import Services from "./Services";
-import Blogs from "./Blogs";
-import Contact from "./Contact";
+import HomeBanner from "./Blocks/HomeBanner";
+import About from "./Blocks/About";
+import Services from "./Blocks/Services";
+import Blogs from "./Blocks/Blogs";
+import Contact from "./Blocks/Contact";
 
 const Main = () => {
     return(
         <>
-            <Home />
+            <HomeBanner />
             <About />
             <Services />
             <Blogs />

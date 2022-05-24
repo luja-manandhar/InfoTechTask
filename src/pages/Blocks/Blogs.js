@@ -1,11 +1,11 @@
 import React from 'react'
-import './CSS/Blog.css'
-import RecentProject from "./blogBlocks/RecentProject";
-import Customers from "./blogBlocks/Customers";
-import Testimonials from "./blogBlocks/Testimonials";
-import Features from "./blogBlocks/Features";
-import Teams from "./blogBlocks/Teams";
-import Tools from "./blogBlocks/Tools";
+import '../CSS/Blog.css'
+import RecentProject from "./RecentProject";
+import Customers from "./Customers";
+import Testimonials from "./Testimonials";
+import Features from "./Features";
+import Teams from "./Teams";
+import Tools from "./Tools";
 
 
 const Blogs = () => {

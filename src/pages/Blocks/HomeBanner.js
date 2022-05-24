@@ -1,9 +1,9 @@
 import React from 'react'
-import img from '../assets/hero.png'
-import './CSS/Home.css'
+import img from '../../assets/hero.png'
+import '../CSS/Home.css'
 
 
-const Home = () => {
+const HomeBanner = () => {
   return (
     <div className='pages'>
         <div className='banner'>
@@ -27,4 +27,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomeBanner

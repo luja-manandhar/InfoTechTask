@@ -3,10 +3,7 @@ import {Link} from "react-router-dom";
 const BlogPage = () => {
     return(
         <div className='pages'>
-            <div>
-                currently under construction.
-            </div>
-            <br/>
+            <p>Blog Detail Page</p>
             <div>
                 <Link to='/'>Go back</Link>
             </div>

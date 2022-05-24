@@ -1,6 +1,7 @@
 .contactMainContainer{
     display: flex;
     background: lightskyblue;
+    width: 100%;
 }
 
 .contactContainer{

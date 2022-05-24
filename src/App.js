@@ -22,7 +22,6 @@ function App() {
             <Route path="/blogs" element={<BlogPage />} />
             <Route path="/login" element={<Login />} />
         </Routes>
-        {/*<Main />*/}
       <Footer />
     </div>
   )

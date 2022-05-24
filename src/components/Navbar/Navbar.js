@@ -25,10 +25,10 @@ const Navbar = () => {
                 <Link onClick={() => showSwitch()} to="/services">Services <FaAngleDown /> </Link>
                 <Link onClick={() => showSwitch()} to="/blogs">Blogs</Link>
                 <Link onClick={() => showSwitch()} to="/contact">Contact</Link>
-                <button className='btn-navbar' onClick={() => showSwitch()} to="/login">Login</button>
+                <button className='navbarButton' onClick={() => showSwitch()} to="/login">Login</button>
             </div>
 
-            <div className={show ? "bars-button active" : "bars-button"} onClick={() => showSwitch()} >
+            <div className={show ? "navbarLinks active" : "navbarLinks"} onClick={() => showSwitch()} >
                 {show ? (<FaTimes size={20} style={{color: '#fff'}} />) : (<FaBars size={20} style={{color: '#333'}} />)}
             </div>
         </div>

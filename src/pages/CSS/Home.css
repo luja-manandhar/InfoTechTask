@@ -1,9 +1,11 @@
-.pages {
+.homeMainContainer {
     display: flex;
     min-height: 700px;
     height: 100%;
+    justify-content: center;
+    align-items: center;
 }
-.Banner {
+.banner {
     border-radius: 25px 25px 150px 25px;
     background: darkblue;
     display: flex;
@@ -15,7 +17,7 @@
     justify-content: center;
 }
 
-.BannerContent{
+.bannerContent{
     padding: 100px;
     max-width: 600px;
     color: white;
@@ -23,7 +25,7 @@
 }
 
 
-img {
+img.bannerImage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,28 +34,29 @@ img {
     margin-right: 50px;
 }
 
-.Header {
+.bannerHeader {
     font-size: 32px;
 }
 
-.Subtitle {
+.bannerSubtitle {
     font-size: 16px;
 }
 
-.Description{
+.bannerDescription{
     font-size: 10px;
 }
 
-button {
+.bannerButton {
     width: 150px;
     height: 35px;
-    background: lightblue;
-    border-radius: 50px;
+    color: white;
+    background: darkblue;
+    border-radius: 5px;
     font-weight: 700;
 }
 
 @media only screen and (max-width: 600px){
-    .Banner {
+    .banner {
         flex-direction: column;
     }
 }

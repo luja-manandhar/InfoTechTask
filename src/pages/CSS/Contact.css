@@ -1,0 +1,37 @@
+.contactMainContainer{
+    display: flex;
+    background: lightskyblue;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 60px;
+}
+
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 60px;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.contactHeading {
+    font-size: 30px;
+}
+
+.contactLogo {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.contactDescription {
+    font-size: 10px;
+}

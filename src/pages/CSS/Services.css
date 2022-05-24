@@ -1,0 +1,42 @@
+.servicesMainContainer {
+    display: flex;
+    min-height: 600px;
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardList {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+
+.servicesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.vLine {
+    border: darkblue solid;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+}
+
+@media screen and (max-width: 660px) {
+    .servicesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .vLine {
+        height: 0;
+    }
+}

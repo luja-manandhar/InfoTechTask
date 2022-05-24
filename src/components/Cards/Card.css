@@ -1,0 +1,42 @@
+.cardContainer {
+    border-radius: 15px;
+    background: lightskyblue;
+    font-size: 12px;
+    height: 250px;
+    width: 250px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardImage {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardImage img{
+    height: 80px;
+}
+
+.cardTitle {
+    font-weight: bold;
+    color: darkblue;
+    padding: 5px;
+}
+
+.cardParagraph {
+    font-size: 7px;
+    width: 80%;
+
+}
+
+.cardLink a{
+    color: darkblue;
+    padding: 10px;
+    text-decoration: none;
+}

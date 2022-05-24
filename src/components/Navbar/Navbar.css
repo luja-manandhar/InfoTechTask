@@ -13,13 +13,14 @@
   margin: 5px 15px 15px 15px;
 }
 
-.bars-button {
+.navbarLinks {
   display: none;
 }
 
 .links {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 50px;
 }
 .links a {
@@ -35,7 +36,7 @@
   padding-bottom: 2.5px;
   transition: 0.18s ease;
 }
-.links .btn-navbar {
+.links .navbarButton {
   width: 90px;
   height: 35px;
   background: transparent;
@@ -51,7 +52,7 @@
   .links a {
     font-size: 16px;
   }
-  .links .btn-navbar {
+  .links .navbarButton {
     width: 90px;
     height: 35px;
     background: transparent;
@@ -79,14 +80,14 @@
     align-items: center;
     justify-content: center;
   }
-  .links .btn-navbar {
+  .links .navbarButton {
     width: 80px;
     height: 30px;
     background: transparent;
     border-radius: 50px;
     color: #fff;
   }
-  .bars-button {
+  .navbarLinks {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -94,14 +95,14 @@
     height: 40px;
     z-index: 4;
   }
-  .bars-button.active span:nth-child(2) {
+  .navbarLinks.active span:nth-child(2) {
     display: none;
   }
-  .bars-button.active span:nth-child(1) {
+  .navbarLinks.active span:nth-child(1) {
     position: absolute;
     transform: rotate(-45deg);
   }
-  .bars-button.active span:nth-child(3) {
+  .navbarLinks.active span:nth-child(3) {
     position: absolute;
     transform: rotate(-45deg);
   }

@@ -2,13 +2,12 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from  './components/Footer/Footer';
-import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import Login from './pages/Login';
-// import Main from "./pages/Main";
+import Main from "./pages/Main";
 
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
         <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<Main />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contact" element={<Contact />} />

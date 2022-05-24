@@ -12,9 +12,9 @@ const Contact = () => {
             </div>
             <div className="contactForm">
                 <form action="">
-                    <input type="text"/>
-                    <input type="text"/>
-                    <input type="button" value='Get Started'/>
+                    <input type="text" placeholder='Email'/>
+                    <input type="text" placeholder='Password'/>
+                    <input className='btn' type="button" value='Get Started'/>
                 </form>
             </div>
         </div>

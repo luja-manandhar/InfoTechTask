@@ -1,6 +1,8 @@
 .blogContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .recentProject {
     background: lightskyblue;
@@ -43,10 +45,31 @@
 .testimonialContainer {
     background: lightskyblue;
     width: 100%;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.personImageList {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.personImageList .mainImage {
+    height: 200px;
+}
+
+.personImageList .sideImage1 {
+    height: 100px;
+}
+
+.personImageList .sideImage2 {
+    height: 50px;
 }
 
 .Features {
@@ -54,6 +77,11 @@
 }
 .featuresContainer {
     width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .cardList {
     width: 100%;
@@ -66,8 +94,16 @@
 .teamContainer {
     background: lightskyblue;
     width: 100%;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.Tools {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    text-align: right;
 }

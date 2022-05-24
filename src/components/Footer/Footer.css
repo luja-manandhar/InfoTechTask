@@ -45,7 +45,7 @@
 .subscribeButton {
     border-radius: 5px;
     width: 100px;
-    height: 30px;
+    height: 40px;
     background: blue;
     box-shadow: none;
     border: none;
@@ -181,5 +181,15 @@
 @media screen and (max-width: 768px) {
     .footerSubscription{
         flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribeButton {
+        width: 100%;
+        margin: 0;
     }
 }

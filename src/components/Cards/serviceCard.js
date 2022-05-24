@@ -1,11 +1,11 @@
-import './Card.css'
+import './serviceCard.css'
 import {Link} from "react-router-dom";
 
-const card = (props) => {
+const serviceCard = (props) => {
     return (
         <div className='cardContainer'>
             <div className="cardImage">
-                <img src={props.image} alt='card-img'/>
+                <img src={props.image} alt='serviceCard-img'/>
             </div>
             <div className="cardTitle">{props.title}</div>
             <div className="cardParagraph">{props.description}</div>
@@ -14,4 +14,4 @@ const card = (props) => {
     )
 }
 
-export default card
+export default serviceCard

@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../components/Cards/Card.js'
+import Card from '../components/Cards/serviceCard.js'
 import './CSS/Services.css'
 import img1 from '../assets/cardimg1.svg'
 import img2 from '../assets/cardimg2.svg'
@@ -14,8 +14,8 @@ const Services = () => {
         <div className="servicesMainContainer">
             <div className="servicesContainer">
                 <div>
-                    <div className="heading" style={{textAlign: "right"}}> - Our Services</div>
-                    <div className="title">
+                    <div className="heading" style={{textAlign: "right"}}> - Our <span className="blue">Services</span></div>
+                    <div className="title" style={{textAlign: "right", paddingRight:"20px"}}>
                         Get <span className='blue'>Exceptional</span> Service for Growth.
                     </div>
                 </div>

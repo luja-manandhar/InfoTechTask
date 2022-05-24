@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import Login from './pages/Login';
+// import Main from "./pages/Main";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/blogs" element={<Blogs />} />
             <Route exact path="/login" element={<Login />} />
         </Routes>
+        {/*<Main />*/}
       <Footer />
     </div>
   )

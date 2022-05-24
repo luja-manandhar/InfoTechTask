@@ -47,6 +47,9 @@ const Blogs = () => {
                             <img src={cBadge3} alt=""/>
                             <img src={cBadge4} alt=""/>
                       </div>
+                      <div className="displayInSmallWidth">
+                            <img src={cBadge1} alt=""/>
+                      </div>
                 </div>
                 <div className="Testimonials">
                       <div className="testimonialContainer">
@@ -59,7 +62,7 @@ const Blogs = () => {
                                   <img className='sideImage1' src={person1} alt=""/>
                                   <img className='sideImage2' src={person1} alt=""/>
                             </div>
-                            <div className="description" style={{width:"500px"}}>
+                            <div className="description" >
                                   “I will admit - originally the thought of outsourcing scared the hell out of me. As a business owner, I am used to controlling and always having my finger on the pulse of my employees and contractors. 101infotech has delivered great results and has convinced me of the value of outsourcing. There were times when it was difficult to communicate but after some time or so everything starts to come together.”
                             </div>
                             <div className='description'><span className="blue">Rahul Kalwar CEO (Danira's)</span></div>
@@ -75,12 +78,14 @@ const Blogs = () => {
                             <div className="featuresCardList">
                                   <Card title="Mobile Development" description="We specialize in creating mobile apps for Windows, Android,  and ios. Our expertise is in developing data-driven, collaborative apps for consumers with insightful analytics.
 "/>
-                                  <Card title="Graphic Designing" description="Good design is all about making other designers jealous. We provide you with a uniqueness in every masterpiece designs.
+                                  <div className='hideInSmallWidth'>
+                                        <Card title="Graphic Designing" description="Good design is all about making other designers jealous. We provide you with a uniqueness in every masterpiece designs.
 “You think, we design”
 "/>
-                                  <Card title="Digital Marketing" description="Even a useless thing holds a different value in the market. Marketing is no longer about the stuff that you make, but about stories
+                                        <Card title="Digital Marketing" description="Even a useless thing holds a different value in the market. Marketing is no longer about the stuff that you make, but about stories
  you tell.
 "/>
+                                  </div>
                             </div>
                       </div>
                 </div>
@@ -107,12 +112,18 @@ const Blogs = () => {
                             </div>
                       </div>
                       <div className="badgeList">
-                            <img src={tools1} alt="HTML"/>
-                            <img src={tools2} alt="React"/>
-                            <img src={tools3} alt="CSS"/>
-                            <img src={tools4} alt="Sass"/>
-                            <img src={tools5} alt="JS"/>
-                            <img src={tools6} alt="PHP"/>
+                            <div>
+                                  <img src={tools1} alt="HTML"/>
+                                  <img src={tools2} alt="React"/>
+                            </div>
+                            <div>
+                                  <img src={tools3} alt="CSS"/>
+                                  <img src={tools4} alt="Sass"/>
+                            </div>
+                            <div className="hideInSmallWidth">
+                                  <img src={tools5} alt="JS"/>
+                                  <img src={tools6} alt="PHP"/>
+                            </div>
                       </div>
                 </div>
           </div>

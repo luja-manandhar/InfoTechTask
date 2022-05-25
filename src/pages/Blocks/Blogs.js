@@ -10,7 +10,7 @@ import Tools from "./Tools";
 
 const Blogs = () => {
   return (
-    <div className='pages'>
+    <div className='pages' id='Blog'>
           <div className="blogContainer">
                 <RecentProject />
                 <Customers />

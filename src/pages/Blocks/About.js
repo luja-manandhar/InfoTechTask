@@ -7,7 +7,7 @@ import img4 from '../../assets/img4.svg';
 
 const About = () => {
   return (
-      <div className="pages">
+      <div className="pages" id='About'>
           <div className='aboutMainContainer'>
               <div className="aboutDescription">
                   <div className="aboutHeader">

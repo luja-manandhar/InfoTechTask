@@ -10,7 +10,7 @@ import img6 from '../../assets/cardimg6.svg'
 
 const Services = () => {
   return (
-    <div className='pages'>
+    <div className='pages' id='Services'>
         <div className="servicesMainContainer">
             <div className="servicesContainer">
                 <div>

@@ -5,7 +5,7 @@ import '../CSS/Home.css'
 
 const HomeBanner = () => {
   return (
-    <div className='pages'>
+    <div className='pages' id='Home'>
         <div className='banner'>
             <div className="bannerContent">
                 <div className="bannerHeader">

@@ -20,11 +20,18 @@ const Navbar = () => {
             </div>
 
             <div className={show ? "links active" : "links"}>
-                <Link onClick={() => showSwitch()} to="/">Home</Link>
+                {/* <Link onClick={() => showSwitch()} to="/">Home</Link>
                 <Link onClick={() => showSwitch()} to="/about">About</Link>
                 <Link onClick={() => showSwitch()} to="/services">Services <FaAngleDown /> </Link>
                 <Link onClick={() => showSwitch()} to="/blogs">Blogs</Link>
                 <Link onClick={() => showSwitch()} to="/contact">Contact</Link>
+                <button className='navbarButton' onClick={() => showSwitch()} to="/login">Login</button> */}
+                
+                <a href='#Home'>Home</a>
+                <a href='#About'>About</a>
+                <a href='#Services'>Services <FaAngleDown /> </a>
+                <a href='#Blog'>Blogs</a>
+                <a href='#Contact'>Contact</a>
                 <button className='navbarButton' onClick={() => showSwitch()} to="/login">Login</button>
             </div>
 

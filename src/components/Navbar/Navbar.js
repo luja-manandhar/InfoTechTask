@@ -27,11 +27,11 @@ const Navbar = () => {
                 <Link onClick={() => showSwitch()} to="/contact">Contact</Link>
                 <button className='navbarButton' onClick={() => showSwitch()} to="/login">Login</button> */}
                 
-                <a href='#Home'>Home</a>
-                <a href='#About'>About</a>
-                <a href='#Services'>Services <FaAngleDown /> </a>
-                <a href='#Blog'>Blogs</a>
-                <a href='#Contact'>Contact</a>
+                <a onClick={() => showSwitch()} href='#Home'>Home</a>
+                <a onClick={() => showSwitch()} href='#About'>About</a>
+                <a onClick={() => showSwitch()} href='#Services'>Services <FaAngleDown /> </a>
+                <a onClick={() => showSwitch()} href='#Blog'>Blogs</a>
+                <a onClick={() => showSwitch()} href='#Contact'>Contact</a>
                 <button className='navbarButton' onClick={() => showSwitch()} to="/login">Login</button>
             </div>
 
